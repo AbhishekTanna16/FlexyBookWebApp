@@ -75,7 +75,7 @@ FlexybookWebApp is a custom-designed Blazor application created from scratch wit
 
 ### Running Locally
 1. Clone the repository:
-   git clone https://github.com/yourusername/FlexybookWebApp.git
+   git clone https://github.com/AbhishekTanna16/FlexyBookWebApp
 
 2. Navigate to the project directory:
    cd FlexybookWebApp
