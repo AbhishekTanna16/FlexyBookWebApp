@@ -1,0 +1,17 @@
+wwwroot\aspect-ratio.png
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\favourite.png
+wwwroot\icon-192.png
+wwwroot\index.html
+wwwroot\InfoButton.png
+wwwroot\js\gallery.js
+wwwroot\Leading visuals (1).png
+wwwroot\Leadingvisuals.png
+wwwroot\media.png
+wwwroot\sample-data\weather.json
+wwwroot\sample-image-1.jpeg
+wwwroot\sample-image-2.jpeg
+wwwroot\css\locations.css

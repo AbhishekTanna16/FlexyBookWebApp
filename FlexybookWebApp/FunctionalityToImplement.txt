@@ -1,0 +1,32 @@
+Task for Your .NET Developer Job Application
+Objective:
+Your task is to create a Blazor application. The application design is defined in the following Figma document: https://www.figma.com/design/BPYVMBj1ZgYK2U4gp218HU/Flexybook---DevTest?node-id=1-10282&t=Lod4mSn7BonpPL63-4
+Note 1: You will have to be logged in to a Figma account in order to be able to fully inspect the elements of the document – you can create a free Figma account with any email.
+Note 2: Regarding fonts and icons, these do not have to match the exact design, if not possible. You may use other icons and fonts if needed.
+How you implement this design is up to you. Feel free to use external libraries in any way you see fit, from nuget.org, or any other publicly available source. We should be able to compile and run your code.
+There are, however, two exceptions to this rule.
+1.
+You should not use any component libraries, such as MudBlazor or similar, which provide pre-developed components. The components should be designed from scratch.
+2.
+You should not use any CSS frameworks, such as Bootstrap or Tailwind.
+The reasoning behind these two exceptions is that we would like to see your creativity and problem-solving skills when implementing the UI.
+These are the minimum requirements for your submission; however, we encourage you to expand functionality or scope as you see fit.
+Your application should demonstrate your skills in .NET development, however with a focus on Blazor. These are the deliverables:
+1. A .NET Solution that can run locally
+o
+Ensure that your entire Solution can run on localhost.
+o
+Provide brief and clear instructions on how to set up and run the application locally.
+2. Time Tracking
+o
+Please track the time spent on this task and provide a description of your approach/thoughts/decisions, and any challenges you faced.
+3. Optional Enhancements
+o
+You are allowed, but not required, to add additional features or improvements
+4.
+Submit the complete source code in a Git repository available for us to clone.
+5.
+Include a brief overview of the features you implemented, as well as enhancements made beyond the basic requirements (if any).
+Additional Considerations
+Focus on code quality, maintainability, and best practices. This task is designed to assess not only your technical skills, but also your creativity in problem-solving, and your ability to manage time effectively.
+We look forward to seeing what you create!

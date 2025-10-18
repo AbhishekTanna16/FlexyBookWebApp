@@ -1,0 +1,51 @@
+﻿@using FlexybookWebApp.Models
+@using FlexybookWebApp.Services
+@inject ILocationService LocationService
+@inject NavigationManager NavigationManager
+
+<div class="sidebar">
+    <h3>Locations</h3>
+    <ul>
+        @if (locations != null && locations.Any())
+        {
+            @foreach (var loc in locations)
+            {
+                <li class="sidebar-item @(loc.Id == selectedId ? "active" : "")"
+                    @onclick="() => NavigateToLocation(loc.Id)">
+                    <span class="location-name">@loc.Name</span>
+                    @if (loc.IsOpen)
+                    {
+                        <span class="location-status open"></span>
+                    }
+                    else
+                    {
+                        <span class="location-status closed"></span>
+                    }
+                </li>
+            }
+        }
+        else
+        {
+            <li class="sidebar-item loading">Loading locations...</li>
+        }
+    </ul>
+</div>
+
+@code {
+    private List<LocationModel>? locations;
+    [Parameter] public string? selectedId { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        locations = (await LocationService.GetLocationsAsync()).ToList();
+        if (string.IsNullOrEmpty(selectedId) && locations != null && locations.Any())
+        {
+            NavigateToLocation(locations.First().Id);
+        }
+    }
+
+    private void NavigateToLocation(string id)
+    {
+        NavigationManager.NavigateTo($"/location/{id}");
+    }
+}

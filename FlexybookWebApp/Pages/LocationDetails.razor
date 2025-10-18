@@ -1,0 +1,237 @@
+﻿@page "/location/{id}"
+@using FlexybookWebApp.Models
+@using FlexybookWebApp.Services
+@inject ILocationService LocationService
+@inject IJSRuntime JSRuntime
+
+<div class="location-details">
+    <div class="location-header">
+        <div class="location-title">
+            <h1>@location?.Name</h1>
+            <div class="location-favorite">
+                <button class="favorite-button" @onclick="ToggleFavorite">
+                    @if (location?.IsFavorite == true)
+                    {
+                        <span class="material-icons">favorite</span>
+                       
+                    }
+                    else
+                    {
+                        <span class="material-icons">favorite_border</span>
+                    }
+                </button>
+            </div>
+        </div>
+
+        <div class="location-info">
+            <div class="status @(location?.IsOpen == true ? "open" : "closed")">
+                <span class="status-dot @(location?.IsOpen == true ? "open" : "closed")"></span>
+                <span>@(location?.IsOpen == true ? "Open" : "Closed")</span>
+                <div class="address">@location?.Address</div>
+            </div>
+            <div class="contact">
+                <div class="phone d-flex">
+                    <span>+@location?.Phone</span>
+                    <span class="info-image"><img src="@location?.InfoUrl" alt="@location?.InfoUrl" /></span>
+                </div>
+                <div class="email d-flex">
+                    <span>@location?.Email</span>
+                    <span class="leding-image"><img src="@location?.LeadingvisualsURL" alt="@location?.LeadingvisualsURL" /></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="media-gallery" @ref="galleryElement">
+        <div class="media-scroll" @ref="scrollElement">
+            @if (location?.Images != null && location.Images.Any())
+            {
+                @foreach (var image in location.Images)
+                {
+                    <div class="media-item @(image == selectedImage ? "selected" : "")" @onclick="() => SelectImage(image)">
+                        <img src="@image" alt="@location.Name" />
+                        @if (image == selectedImage && image.Contains("media.png"))
+                        {
+                            <div class="author-note">
+                                <div class="author-avatar">J</div>
+                                <div class="note-content">
+                                    <div class="author-name">Jakob Pirk <span class="time-ago">7 mo. ago</span></div>
+                                    <div class="note-text">This is a horizontal scroll view, with a list of scrollable elements</div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="media-item">
+                    <img src="@location?.ImageUrl" alt="@location?.Name" />
+                </div>
+            }
+        </div>
+
+        @if (location?.Images != null && location.Images.Length > 1)
+        {
+            <div class="gallery-controls">
+                <button class="gallery-nav prev" @onclick="ScrollLeft">
+                    <span class="material-icons">chevron_left</span>
+                </button>
+                <button class="gallery-nav next" @onclick="ScrollRight">
+                    <span class="material-icons">chevron_right</span>
+                </button>
+            </div>
+        }
+    </div>
+
+    <div class="opening-hours">
+        <h2>Opening hours</h2>
+        <div class="location-tabs">
+            <div class="tab-buttons">
+                @foreach (var tab in tabs)
+                {
+                    <button class="tab-button @(tab == activeTab ? "active" : "")"
+                            @onclick="@(() => SetActiveTab(tab))">
+                        @tab
+                    </button>
+                }
+            </div>
+        </div>
+        <div class="hours-table">
+            <table>
+                <tbody>
+                    @if (location?.ServiceOpeningHours != null &&
+                    location.ServiceOpeningHours.ContainsKey(activeTab) &&
+                    location.ServiceOpeningHours[activeTab].Any())
+                    {
+                        @foreach (var schedule in location.ServiceOpeningHours[activeTab])
+                        {
+                            <tr>
+                                <td class="day">@schedule.Day</td>
+                                <td class="hours">@schedule.Hours</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="2" class="no-hours">No opening hours available for @activeTab</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Id { get; set; } = "";
+
+    private LocationModel? location;
+    private string[] tabs = new[] { "Restaurant", "Takeaway", "Buffet", "Special Events for Gropus" };
+    private string activeTab = "Restaurant";
+    private string? selectedImage;
+    private ElementReference scrollElement;
+    private ElementReference galleryElement;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (string.IsNullOrEmpty(Id))
+            return;
+
+        location = new LocationModel
+            {
+                Id = Id,
+                Name = "Aalborg",
+                Address = "Østergade 27, 9000 - Aalborg",
+                Phone = "45 11 22 33 44",
+                Email = "aalborg@flexybox.com",
+                IsOpen = true,
+                IsFavorite = false,
+                ImageUrl = "/media.png",
+                InfoUrl = "/InfoButton.png",
+                LeadingvisualsURL = "/Leadingvisuals.png",
+                Images = new[]
+                        {
+                    "/media.png",
+                    "/sample-image-1.jpeg",
+                    "/sample-image-2.jpeg"
+                },
+                ServiceOpeningHours = new Dictionary<string, OpeningHour[]>
+                {
+                    { "Restaurant", new[]
+                        {
+                            new OpeningHour { Day = "Monday - Thursday", Hours = "07:00 - 22:00" },
+                            new OpeningHour { Day = "Friday", Hours = "07:00 - 22:00" },
+                            new OpeningHour { Day = "Saturday", Hours = "07:00 - 22:00" },
+                            new OpeningHour { Day = "Sunday", Hours = "07:00 - 22:00" },
+                            new OpeningHour { Day = "Holidays", Hours = "Closed" }
+                        }
+                    },
+                    { "Takeaway", new[]
+                        {
+                            new OpeningHour { Day = "Monday - Friday", Hours = "10:00 - 21:00" },
+                            new OpeningHour { Day = "Saturday - Sunday", Hours = "11:00 - 21:00" },
+                            new OpeningHour { Day = "Holidays", Hours = "11:00 - 20:00" }
+                        }
+                    },
+                    { "Buffet", new[]
+                        {
+                            new OpeningHour { Day = "Monday - Friday", Hours = "11:30 - 14:30" },
+                            new OpeningHour { Day = "Saturday - Sunday", Hours = "10:00 - 15:00" },
+                            new OpeningHour { Day = "Holidays", Hours = "Closed" }
+                        }
+                    },
+                    { "Special Events for Gropus", new[]
+                        {
+                            new OpeningHour { Day = "By appointment only", Hours = "Contact us for details" }
+                        }
+                    }
+                }
+            };
+
+        location.OpeningHours = location.ServiceOpeningHours["Restaurant"];
+
+        if (location.Images != null && location.Images.Any())
+        {
+            selectedImage = location.Images.First();
+        }
+    }
+
+    private void SetActiveTab(string tab)
+    {
+        activeTab = tab;
+    }
+
+    private void ToggleFavorite()
+    {
+        if (location != null)
+        {
+            location.IsFavorite = !location.IsFavorite;
+        }
+    }
+
+    private void SelectImage(string image)
+    {
+        selectedImage = image;
+    }
+
+    private async Task ScrollLeft()
+    {
+        await JSRuntime.InvokeVoidAsync("scrollGallery", scrollElement, -300);
+    }
+
+    private async Task ScrollRight()
+    {
+        await JSRuntime.InvokeVoidAsync("scrollGallery", scrollElement, 300);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("initGallery", scrollElement);
+        }
+    }
+}

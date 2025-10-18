@@ -1,0 +1,25 @@
+﻿@inherits LayoutComponentBase
+@using FlexybookWebApp.Pages
+@inject NavigationManager NavigationManager
+
+<div class="main-layout">
+    <LocationSidebar selectedId="@GetCurrentLocationId()" />
+    <div class="content-area">
+        @Body
+    </div>
+</div>
+
+@code {
+    private string? GetCurrentLocationId()
+    {
+        var uri = new Uri(NavigationManager.Uri);
+        var segments = uri.Segments;
+
+        if (segments.Length >= 3 && segments[1].Equals("location/", StringComparison.OrdinalIgnoreCase))
+        {
+            return segments[2];
+        }
+
+        return null;
+    }
+}

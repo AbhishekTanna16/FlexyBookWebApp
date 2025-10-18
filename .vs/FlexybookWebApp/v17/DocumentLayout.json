@@ -1,0 +1,398 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projects\\FlexybookWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\wwwroot\\css\\locations.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\wwwroot\\css\\locations.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\pages\\locationdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\pages\\locationdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\services\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\services\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\pages\\locationsidebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\pages\\locationsidebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\functionalitytoimplement.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\functionalitytoimplement.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\pages\\locationslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\pages\\locationslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\wwwroot\\js\\gallery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\wwwroot\\js\\gallery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|e:\\projects\\flexybookwebapp\\flexybookwebapp\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C99F7B73-FFE5-463F-81BF-7F9B2E6ACE89}|FlexybookWebApp\\FlexybookWebApp.csproj|solutionrelative:flexybookwebapp\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "locations.css",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\wwwroot\\css\\locations.css",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\wwwroot\\css\\locations.css",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\wwwroot\\css\\locations.css",
+              "RelativeToolTip": "FlexybookWebApp\\wwwroot\\css\\locations.css",
+              "ViewState": "AgIAALUBAAAAAAAAAAAswMYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-18T04:08:15.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocationSidebar.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\LocationSidebar.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Pages\\LocationSidebar.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\LocationSidebar.razor",
+              "RelativeToolTip": "FlexybookWebApp\\Pages\\LocationSidebar.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:01:41.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Home.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Pages\\Home.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\Home.razor",
+              "RelativeToolTip": "FlexybookWebApp\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T12:24:27.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocationDetails.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\LocationDetails.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Pages\\LocationDetails.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\LocationDetails.razor",
+              "RelativeToolTip": "FlexybookWebApp\\Pages\\LocationDetails.razor",
+              "ViewState": "AgIAAGcAAAAAAAAAAIAywHIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T11:40:11.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILocationService.cs",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Services\\ILocationService.cs",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Services\\ILocationService.cs",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Services\\ILocationService.cs",
+              "RelativeToolTip": "FlexybookWebApp\\Services\\ILocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T12:22:55.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\App.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\App.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\App.razor",
+              "RelativeToolTip": "FlexybookWebApp\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T12:24:23.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "FlexybookWebApp\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T12:29:31.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\wwwroot\\css\\app.css",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "FlexybookWebApp\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAlwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-14T13:52:18.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Pages\\Weather.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\Weather.razor",
+              "RelativeToolTip": "FlexybookWebApp\\Pages\\Weather.razor",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAlwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T03:56:33.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\_Imports.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\_Imports.razor",
+              "RelativeToolTip": "FlexybookWebApp\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T03:57:01.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FunctionalityToImplement.txt",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\FunctionalityToImplement.txt",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\FunctionalityToImplement.txt",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\FunctionalityToImplement.txt",
+              "RelativeToolTip": "FlexybookWebApp\\FunctionalityToImplement.txt",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-14T12:24:34.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Program.cs",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Program.cs",
+              "RelativeToolTip": "FlexybookWebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T12:24:37.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Pages\\Counter.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\Counter.razor",
+              "RelativeToolTip": "FlexybookWebApp\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T03:55:27.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Layout\\NavMenu.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "FlexybookWebApp\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAlwC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T12:29:30.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Services\\LocationService.cs",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Services\\LocationService.cs",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Services\\LocationService.cs",
+              "RelativeToolTip": "FlexybookWebApp\\Services\\LocationService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAzwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T12:22:57.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "gallery.js",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\wwwroot\\js\\gallery.js",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\wwwroot\\js\\gallery.js",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\wwwroot\\js\\gallery.js",
+              "RelativeToolTip": "FlexybookWebApp\\wwwroot\\js\\gallery.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-14T12:04:27.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LocationsList.razor",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\LocationsList.razor",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Pages\\LocationsList.razor",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Pages\\LocationsList.razor",
+              "RelativeToolTip": "FlexybookWebApp\\Pages\\LocationsList.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAlwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T11:25:24.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\wwwroot\\index.html",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\wwwroot\\index.html",
+              "RelativeToolTip": "FlexybookWebApp\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-14T12:04:51.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LocationModel.cs",
+              "DocumentMoniker": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Models\\LocationModel.cs",
+              "RelativeDocumentMoniker": "FlexybookWebApp\\Models\\LocationModel.cs",
+              "ToolTip": "E:\\projects\\FlexybookWebApp\\FlexybookWebApp\\Models\\LocationModel.cs",
+              "RelativeToolTip": "FlexybookWebApp\\Models\\LocationModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T11:54:21.209Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
